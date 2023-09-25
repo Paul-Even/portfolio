@@ -1,5 +1,6 @@
 <template id="app">
     <v-app id="home" :style="{ background: $vuetify.theme.themes.dark.background}">
+        <title>Paul Even</title>
         <Navbar_ />
         <v-container fluid>
             <v-row>

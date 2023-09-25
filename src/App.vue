@@ -13,6 +13,8 @@
 <script>
 import Home_ from '@/components/Home.vue';
 
+document.title='Paul Even'
+
 
 export default {
   name: 'App',
@@ -24,5 +26,7 @@ export default {
   data: () => ({
     //
   }),
+
+  
 };
 </script>
