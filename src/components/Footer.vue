@@ -5,8 +5,28 @@
                 
                 <v-col cols="12" sm="12">
                     <v-card-text class="pt-2">
-                        <v-btn v-for="icon in icons" :key="icon" class="mx-1 white--text" icon>
-                        <v-icon size="24px">{{ icon }}</v-icon>
+                        <v-btn  class="mx-1 white--text" icon>
+                            <a href="https://www.linkedin.com/in/paul-even/">
+                            <v-icon 
+                            x-large class="ml-3" color="#FFFFFF">
+                                        mdi-linkedin
+                                    </v-icon>
+                                </a>
+
+                                
+                        
+                    </v-btn>
+
+                    <v-btn  class="mx-1 white--text" icon>
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=pauleven95@gmail.com">
+                            <v-icon 
+                            x-large class="ml-3" color="#FFFFFF">
+                                        mdi-gmail
+                                    </v-icon>
+                                </a>
+
+                                
+                        
                     </v-btn>
                     </v-card-text>
                 </v-col>
@@ -23,7 +43,7 @@ export default {
     name: 'Footer_',
     data: ()=>({
         icons:[
-            "mdi-facebook", "mdi-twitter", "mdi-linkedin", "mdi-instagram"
+            "mdi-gmail", "mdi-linkedin"
         ]
     })
 }

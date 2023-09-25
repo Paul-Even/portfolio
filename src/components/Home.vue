@@ -247,14 +247,46 @@
                             <v-row>
                                 <v-col cols="7">
                                     <h1 class="white--text">
-                                        Let's work together on<br />your next project
+                                        Let's work together on<br />your next project !
                                     </h1>
                                     <p class="grey--text">
-                                        Bullshido Bullshido Bullshido Bullshido Bullshido Bullshido
+                                        Here are my LinkedIn and Gmail links.
                                     </p>
                                 </v-col>
                                 <v-col cols="5">
-                                    <v-btn tile color="#5F2369" dark class="mt-16">Contact</v-btn>
+                                    <br />
+                                    <br />
+                <v-row>
+                
+                <v-col cols="12" sm="12">
+                    <v-card-text class="pt-2">
+                        <v-btn  class="mx-1 white--text" icon>
+                            <a href="https://www.linkedin.com/in/paul-even/">
+                            <v-icon 
+                            x-large class="ml-3" color="#FFFFFF">
+                                        mdi-linkedin
+                                    </v-icon>
+                                </a>
+
+                                
+                        
+                    </v-btn>
+
+                    <v-btn  class="mx-1 white--text" icon>
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=pauleven95@gmail.com">
+                            <v-icon 
+                            x-large class="ml-3" color="#FFFFFF">
+                                        mdi-gmail
+                                    </v-icon>
+                                </a>
+
+                                
+                        
+                    </v-btn>
+                    </v-card-text>
+                </v-col>
+                
+            </v-row>
                                 </v-col>
                             </v-row>
                         </div>
@@ -266,14 +298,14 @@
                     
             </v-row>
         </v-container>
-        <Footer_ />
+        
     </v-app>
     
 </template>
 
 <script>
 import Navbar_ from '@/components/Navbar'
-import Footer_ from '@/components/Footer'
+
 
 
 
@@ -285,7 +317,7 @@ export default {
 
     components: {
         Navbar_,
-        Footer_,
+        
         
        
     },
@@ -327,7 +359,7 @@ export default {
 
 .second{
     width: 100%;
-    height: 400px;
+    height: 200px;
     background: #181818;
     text-align: center;
     padding: 2rem 2rem;    
@@ -340,7 +372,7 @@ export default {
     padding: 2rem 1rem;
     vertical-align: middle;
     text-align: left;
-    margin-top: 250px;
+    margin-top: 20px;
 }
 
 .child{
