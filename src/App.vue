@@ -2,7 +2,7 @@
   <v-app>
     
     <v-main>
-      
+      <title>Paul Even</title>
       <Home_/>
       <router-view></router-view>
 
