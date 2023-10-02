@@ -9,7 +9,7 @@
                 </v-col>
                 <v-col cols="5">
                     <h5 class="pt2 top">Hello, I'm Paul.</h5>
-                    <h1 class="white--text">Innovative Artist</h1>
+                    <h1 class="white--text">Engineering Student</h1>
                     <p class="grey--text">I am an undergraduate Master of Science student and Creative Technologist at the<br /> De Vinci Innovation Center.
                          I'm a part of the Human Learning group, where I can develop my knowledge on humans and their interactions with their surroundings.
                          Passionnate about human senses and art, I always look to create experiences to play with people's sensations.
@@ -88,35 +88,41 @@
                         </v-row>
                     </div>
                 </v-col>
-                <v-col md="3" offset-md="3" id="project">
+                <v-col md="4" offset-md="2" id="project">
                     <h4 class="pt">RECENT PROJECTS</h4>
                     <p class="grey--text"> Art, relaxation, physiological signal analysis and more...</p>
                 </v-col>
                 <v-col md="3" class="text-end">
                 </v-col>
-                <v-col md="3" offset-md="3">
+                <v-col md="3" offset-md="2">
                         <v-img src="@/assets/foreign_nature.jpg" max-height="250px" contain></v-img>
+                </v-col>
+                <v-col md="2">
+
                 </v-col>
                 <v-col md="3">
                     
                         <v-img src="@/assets/hera_shirt.jpg" max-height="250px" contain></v-img>
                     
                 </v-col>
-                <v-col md="3" offset-md="3">
+                <v-col md="3" offset-md="2">
                     <v-btn color="white" dark text class="ml-n4">
                         Art of Life (work in progress)
                     </v-btn><br />
                     
                 </v-col>
+                <v-col md="2">
+
+                </v-col>
                 <v-col md="3">
                     <v-btn color="white" dark text class="ml-n4">
-                        HeRa Shirt
+                        HeRa Shirt -&nbsp;<a href="https://smart-textiles-hub.com/" target="_blank" class="purple--text">Smart Textiles Hub</a>
                     </v-btn><br />
                     
                 </v-col>
 
                 <v-row>
-                <v-col md="3" offset-md="3">
+                <v-col md="3" offset-md="2">
                     
             <v-row>
                     <p class="grey--text"> This project aims to generate <u>immersive art</u> from <u>human biometric data</u>.
@@ -135,6 +141,9 @@
                     
                     
                 
+            </v-col>
+            <v-col md="2">
+
             </v-col>
             <v-col md="3">
                 <v-row>
@@ -158,23 +167,29 @@
 
 
 
-                <v-col md="3" offset-md="3">
+                <v-col md="3" offset-md="2">
                     
                         <v-img src="@/assets/smellful.png" contain></v-img>
                     
+                </v-col>
+                <v-col md="2">
+
                 </v-col>
                 <v-col md="3">
                     
                         <v-img src="@/assets/stressbud.png" contain></v-img>
                     
                 </v-col>
-                <v-col md="3" offset-md="3">
+                <v-col md="3" offset-md="2">
                     
                         <v-btn color="white" dark text class="ml-n4">
                         Smellful
                     </v-btn>
                     
                       
+                </v-col>
+                <v-col md="2">
+
                 </v-col>
                 <v-col md="3">
                     <v-btn color="white" dark text class="ml-n4">
@@ -184,7 +199,7 @@
                 </v-col>
                 
                 <v-row>
-                <v-col md="3" offset-md="3">
+                <v-col md="3" offset-md="2">
                     
             <v-row>
                     <p class="grey--text"><u>Increasing demands</u> at the workplace and in school is a major source 
@@ -213,6 +228,9 @@
                     
                     
                 
+            </v-col>
+            <v-col md="2">
+
             </v-col>
             <v-col md="3">
                 <v-row>
@@ -441,5 +459,21 @@ h1.number{
 
 .butto{
     color: #FFFFFF
+}
+.sth{
+    color: "#5F2369"
+}
+a:link {
+  color: "#5F2369";
+  background-color: transparent;
+  
+}
+a:visited {
+  color: "#5F2369";
+  background-color: transparent;
+}
+a:active {
+  color: "#5F2369";
+  background-color: transparent;
 }
 </style>
