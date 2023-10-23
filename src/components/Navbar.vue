@@ -1,14 +1,20 @@
 <template>
-    <v-app-bar app color="#111111" dark flat class="px-8">
-        <v-btn icon height="50px">
-            <v-icon color="#5F2369">mdi-brain</v-icon>
-        </v-btn>
+    <v-app-bar app color="#111111" dark flat>
+        
+        
+        <v-col cols="1">
+            <v-img src="@/assets/hl_logo5.png" max-height="75px" div="logo" contain></v-img> 
+        </v-col>
         <v-spacer></v-spacer>
+        <v-spacer></v-spacer>
+        <v-spacer></v-spacer>
+        
         <v-btn text @click="scroll('home')">Home</v-btn>
         <v-btn text @click="scroll('about')">About</v-btn>
-        <v-btn text @click="scroll('project')">Projects</v-btn>
-        
+        <v-btn text @click="scroll('project')">Projects</v-btn>        
         <v-btn text @click="scroll('contact')">Contact</v-btn>
+             
+        
     </v-app-bar>
 </template>
 
@@ -26,3 +32,10 @@ export default {
     }
 }
 </script>
+<style>
+
+.logo{
+    float: left;
+    
+}
+</style>

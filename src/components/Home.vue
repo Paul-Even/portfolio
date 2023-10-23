@@ -213,7 +213,7 @@
                         different way, including <u>relaxing</u> them, giving them a <u>boost of energy</u> or increasing <u>concentration</u>.
                         
                         <br />
-                        <a href="https://dvic.devinci.fr/projects/smellful">
+                        <a href="https://dvic.devinci.fr/projects/smellful" target="_blank">
                         <v-btn  color="#5F2369" dark text class="ml-n4">
                         Know more
                         <v-icon right>mdi-arrow-right</v-icon>
@@ -245,7 +245,7 @@
                         levels by stimulating different parts of the brain, including those responsible for 
                         attention and focus.
                         
-                        <a href="https://dvic.devinci.fr/quickstarter/stressbud">
+                        <a href="https://www.kickstarter.com/projects/stressbud/quickstarter-stressbud-a-fidget-toy-to-focus" target="_blank">
                         <br />
                         <v-btn  color="#5F2369" dark text class="ml-n4">
                         Know more
@@ -463,6 +463,9 @@ h1.number{
 .sth{
     color: "#5F2369"
 }
+
+
+
 a:link {
   color: "#5F2369";
   background-color: transparent;
