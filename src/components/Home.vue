@@ -23,26 +23,53 @@
                             <v-col cols="12">
                                 <div class="child bgColor1">
                                     <v-icon color="#5F2369" x-large class="ml-3">
-                                        mdi-palette-swatch
+                                        mdi-heart-pulse
                                     </v-icon>
-                                    <h3 class="white--text ml-3 mt-4">UX/UI Design</h3>
-                                    <p class="grey--text ml-3 mt-6">Development of phone<br /> applications, websites<br /> and others.
+                                    <h3 class="white--text ml-3 mt-4">Bio-medical Sensors</h3>
+                                    <p class="grey--text ml-3 mt-6">Using medical sensors and computing the data to create interactive technologies.
                                     </p>
                                     
                                 </div>
                                 <div class="child bgColor2">
-                                    <v-icon color="#FFFFFF" x-large class="ml-3">mdi-brain</v-icon>
-                                    <h3 class="white--text ml-3 mt-4">Human Research</h3>
+                                    <v-icon color="#FFFFFF" x-large class="ml-3">mdi-palette</v-icon>
+                                    <h3 class="white--text ml-3 mt-4">Art Installations</h3>
                                     <p class="grey--text ml-3 mt-6">
-                                        Understanding the effects<br /> of our different senses<br /> and our body's response.
+                                        Developping innovative<br/>installations that combine<br/>immersion and interactivity.
                                     </p>
                                     
                                 </div>
                                 <div class="child bgColor1">
-                                    <v-icon color="#5F2369" x-large class="ml-3">mdi-memory</v-icon>
+                                    <v-icon color="#5F2369" x-large class="ml-3">mdi-brain</v-icon>
+                                    <h3 class="white--text ml-3 mt-4">Neurology</h3>
+                                    <p class="grey--text ml-3 mt-6">
+                                        Understanding the effects<br /> of our different senses<br /> and our brain's responses.
+                                    </p>
+                                    
+                                </div>
+                            </v-col>
+                            <v-col cols="12">
+                                <div class="child bgColor1">
+                                    <v-icon color="#5F2369" x-large class="ml-3">
+                                        mdi-palette-swatch
+                                    </v-icon>
+                                    <h3 class="white--text ml-3 mt-4">UX/UI Design</h3>
+                                    <p class="grey--text ml-3 mt-6">Development of phone<br/>applications, websites<br/>and other softwares.
+                                    </p>
+                                    
+                                </div>
+                                <div class="child bgColor2">
+                                    <v-icon color="#FFFFFF" x-large class="ml-3">mdi-memory</v-icon>
                                     <h3 class="white--text ml-3 mt-4">Electronic Design</h3>
                                     <p class="grey--text ml-3 mt-6">
-                                        Sensor networking,<br /> Bluetooth communication<br />and textile integration.
+                                        Components networking, <br/>printed circuit board design <br/>and textile integration.
+                                    </p>
+                                    
+                                </div>
+                                <div class="child bgColor1">
+                                    <v-icon color="#5F2369" x-large class="ml-3">mdi-database</v-icon>
+                                    <h3 class="white--text ml-3 mt-4">Database Administration</h3>
+                                    <p class="grey--text ml-3 mt-6">
+                                        Design, deployment and administation of databases for real-time communication.
                                     </p>
                                     
                                 </div>
@@ -87,8 +114,10 @@
                             </v-col>
                         </v-row>
                     </div>
+                    
                 </v-col>
-                <v-col md="4" offset-md="2" id="project">
+                
+                <v-col md="4" offset-md="2" class="projects" id="project">
                     <h4 class="pt">RECENT PROJECTS</h4>
                     <p class="grey--text"> Art, relaxation, physiological signal analysis and more...</p>
                 </v-col>
@@ -392,6 +421,7 @@ export default {
     vertical-align: middle;
     text-align: left;
     margin-top: 20px;
+    
 }
 
 .child{
@@ -400,6 +430,9 @@ export default {
     vertical-align: middle;
     text-align: left;
     margin-right: 8px;
+    width: 275px;
+    height: 275px;
+    text-align: center;
 }
 
 .bgColor1{
@@ -464,6 +497,9 @@ h1.number{
     color: "#5F2369"
 }
 
+.projects{
+    padding-top: 300px;
+}
 
 
 a:link {
