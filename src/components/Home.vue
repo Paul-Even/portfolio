@@ -8,7 +8,7 @@
                     <v-img src="@/assets/vivatech_pic.jpg" contain max-height="500"></v-img>
                 </v-col>
                 <v-col cols="5">
-                    <h5 class="pt2 top">Hello, I'm Paul.</h5>
+                    <h4 class="pt2 top">Hello, I'm Paul.</h4>
                     <h1 class="white--text">Engineering Student</h1>
                     <p class="grey--text">I am an undergraduate Master of Science student and Creative Technologist at the<br /> De Vinci Innovation Center.
                          I'm a part of the Human Learning group, where I can develop my knowledge on humans and their interactions with their surroundings.
@@ -131,7 +131,7 @@
                 </v-col>
                 <v-col md="3">
                     
-                        <v-img src="@/assets/hera_shirt.jpg" max-height="250px" contain></v-img>
+                        <v-img src="@/assets/sth_shirt.jpeg" max-height="250px" contain></v-img>
                     
                 </v-col>
                 <v-col md="3" offset-md="2">

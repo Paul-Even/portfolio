@@ -13,7 +13,7 @@
                     
                 </v-col>
                 <v-col cols="2" md="4">
-                        <v-btn height="57px" width="110px" href="https://dvic.devinci.fr/" target="_blank" plain contain>
+                        <v-btn height="57px" width="100px" href="https://dvic.devinci.fr/" target="_blank" plain contain>
                             <v-img src="@/assets/dvic_logo.png"  class="l2" contain></v-img>
                         </v-btn>
                         
